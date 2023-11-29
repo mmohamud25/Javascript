@@ -1,0 +1,13 @@
+var miles = 24;
+var kilometers = 40;
+var number = 1.609344;
+var kilometersToMiles = kilometers / number;
+var milesToKilometers = miles * number;
+console.log("Distance conversions");
+console.log("-----------------------");
+console.log(kilometers + " kilometers are:");
+console.log(kilometersToMiles + " miles are");
+console.log('----');
+console.log(miles + " miles are:");
+console.log(milesToKilometers + " kilometers");
+console.log("\n");
