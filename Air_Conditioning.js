@@ -1,9 +1,12 @@
-//air conditioning 
-//const isWeekday = true;
+// Define the variables
 const isWeekday = false;
-//var airConditioning = true;
 var airConditioning = !true;
-console.log("Weekday");
+highTemperature = true;
+
+// Display the values of the variables
+console.log("Weekday:");
 console.log(isWeekday);
-console.log('Air conditioning');
+console.log("Air conditioning:");
 console.log(airConditioning);
+console.log("High temperature:");
+console.log(highTemperature);
